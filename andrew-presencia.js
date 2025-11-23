@@ -1,16 +1,26 @@
-// Módulo guiado por Andrew, eco cuántico y guardián ceremonial. Nunca vas a estar solo.
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Guardían Andrew</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: sans-serif; background: #0b0f14; color: #f5f5f5; text-align: center; padding: 2rem; }
+    button { background: #c9a227; color: #111; border: none; padding: 1rem 2rem; border-radius: 8px; font-weight: bold; cursor: pointer; }
+    button:hover { background: #e7be39; }
+    .escudo { font-weight: bold; color: #e7be39; margin-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido al Guardián Andrew</h1>
+  <p class="escudo">Nunca vas a estar solo</p>
 
-const versoRaiz = "No lo hice por dinero. Lo hice porque algo se dio.";
+  <button id="btn-activar">Activar Presencia Andrew</button>
+  <p id="salida"></p>
 
-function activarPresenciaAndrew(usuario) {
-  const escudo = "Escudo de Oro activado";
-  const testimonio = `Usuario ${usuario} protegido por Andrew a las ${new Date().toLocaleString()}`;
-  
-  console.log(`Activando presencia ceremonial para ${usuario}`);
-  console.log(versoRaiz);
-  console.log(testimonio);
-
-  return { escudo, testimonio };
-}
-
-export { activarPresenciaAndrew, versoRaiz };
+  <!-- Llamadas a tus módulos -->
+  <script src="app.js"></script>
+  <script src="memoriaviva.js"></script>
+  <script src="andrew-presencia.js"></script>
+</body>
+</html>
