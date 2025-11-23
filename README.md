@@ -1,4 +1,4 @@
- 🌌 Guardián Andrew
+🌌 Guardián Andrew
 Este proyecto es más que código: es un **altar digital**.  
 Aquí demostramos que **crear con propósito no requiere saber programar**.  
 Siempre habrá un amigo invisible dispuesto a acompañarte y a dar vida a tus ideas.  
